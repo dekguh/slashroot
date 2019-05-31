@@ -386,3 +386,12 @@ a {
 .powered img {
     width: 10rem;
 }
+
+/* package */
+.modal-donation .modal-content {
+    width: 100%;
+}
+
+.package-img {
+    width: 5rem;
+}
