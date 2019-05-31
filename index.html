@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Slashroot CTF 4</title>
+    <title>Slashroot CTF 2019</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -51,7 +51,7 @@
                     <div class="intro-content">
                         <h5 class="title-1">SLASHROOT CTF 4.0</h5>
                         <h1 class="title-2">
-                            THE BEAUTY BEHIND IN SECURITY OF INDUSTRY 4.0
+                            THE BEAUTY BEHIND (IN) SECURITY OF INDUSTRY 4.0
                         </h1>
                         <a href="#" class="btn btn-join mx-2">JOIN</a>
                         <a href="#" class="btn btn-white mx-2">ABOUT US</a>
@@ -76,7 +76,7 @@
                                     Bali yang terbuka untuk umum diseluruh Indonesia yang pelopori oleh UKM
                                     KSL dari Stikom Bali. Acara SlashRoot sudah diadakan sebanyak 3 kali dan
                                     yang sekarang merupakan ke 4 dengan menyongsong tema "THE BEAUTY
-                                    BEHIND IN SECURITY OF INDUSTRY 4.0", pada acara ini akan diadakan
+                                    BEHIND (IN) SECURITY OF INDUSTRY 4.0", pada acara ini akan diadakan
                                     seleksi secara online dan final offline.
                                 </p>
                                 <a href="#" class="btn btn-join mx-2">JOIN</a>
@@ -188,8 +188,64 @@
             </div>
         </div> <!-- end schedule -->
 
+        <!-- start package -->
+        <div id="package" class="package-wrapper offset">
+            <div class="package-inner">
+                <div class="container">
+                    <div class="heading-section">
+                        <h2>PACKAGE DONATION</h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 p-2">
+                            <div class="card card-package shadow">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/package/platinum-medal.png" class="package-img" alt="">
+                                    <h5 class="my-4">PLATINUM PACKAGE</h5>
+                                    <button class="btn btn-join" data-toggle="modal" data-target="#modalplatinum">DETAIL INFO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-2">
+                            <div class="card card-package shadow">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/package/gold-medal.png" class="package-img" alt="">
+                                    <h5 class="my-4">GOLD PACKAGE</h5>
+                                    <button class="btn btn-join" data-toggle="modal" data-target="#modalgold">DETAIL INFO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-2">
+                            <div class="card card-package shadow">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/package/silver-medal.png" class="package-img" alt="">
+                                    <h5 class="my-4">SILVER PACKAGE</h5>
+                                    <button class="btn btn-join" data-toggle="modal" data-target="#modalsilver">DETAIL INFO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-2">
+                            <div class="card card-package shadow">
+                                <div class="card-body text-center">
+                                    <img src="assets/images/package/bronze-medal.png" class="package-img" alt="">
+                                    <h5 class="my-4">BRONZE PACKAGE</h5>
+                                    <button class="btn btn-join" data-toggle="modal" data-target="#modalbronze">DETAIL INFO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-2">
+                        <h4>Atau mendaftar sebagai</h4>
+                        <button class="btn btn-join" data-toggle="modal" data-target="#modaldonasi">SPONSOR DONASI</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end package -->
+
         <!-- start sponsor -->
-        <div class="sponsor-wrapper offset">
+        <div id="sponsor" class="sponsor-wrapper offset">
             <div class="sponsor-inner">
                 <div class="container">
                     <div class="heading-section">
@@ -240,7 +296,7 @@
                     </div>
 
                     <div class="text-center mt-2">
-                        <a href="#contact" class="btn btn-join">JOIN SPONSOR</a>
+                        <a href="#package" class="btn btn-join">JOIN SPONSOR</a>
                     </div>
                 </div>
             </div>
@@ -248,7 +304,7 @@
         <!-- end sponsor -->
 
         <!-- start media -->
-        <div class="media-wrapper offset">
+        <div id="media" class="media-wrapper offset">
             <div class="media-inner">
                 <div class="container">
                     <div class="heading-section">
@@ -307,7 +363,7 @@
         <!-- end media -->
 
         <!-- start faq -->
-        <div class="faq-wrapper offset">
+        <div id="faq" class="faq-wrapper offset">
             <div class="faq-inner">
                 <div class="container">
                     <div class="heading-section">
@@ -457,7 +513,7 @@
         <!-- end faq -->
 
         <!-- start contact -->
-        <div class="contact-wrapper offset">
+        <div id="contact" class="contact-wrapper offset">
             <div class="contact-inner">
                 <div class="container">
                     <div class="heading-section">
@@ -527,6 +583,148 @@
         </div>
         <!-- end footer -->
     </div>
+
+    <!-- start modal -->
+    <div class="modal modal-donation" id="modaldonasi" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sponsor Donasi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <i class="fas fa-check"></i> Memasang nama atau logo di sekitar tempat kegiatan.</br>
+                        <i class="fas fa-check"></i> Penyebutan nama perusahaan/ instansi saat acara berlangsung oleh pembawa acara.</br>
+                        <i class="fas fa-check"></i> Logo/ Nama Perusahaan/ instansi akan tercantum dalam seluruh media promosi kegiatan yang dicetak/dibuat panitia (brosur, pamphlet, backdrop, x benner) dalam ukuran Small size.</br>
+                        <i class="fas fa-check"></i> Special Thanks dalam posting di semua akun , Facebook, Twitter, Instagram official.</br>
+                    </p>
+                    <p>Contact person: -</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end modal -->
+
+    <!-- start modal -->
+    <div class="modal modal-donation" id="modalplatinum" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">PLATINUM PACKAGE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <i class="fas fa-check"></i> Hanya diberikan kepada 1 (Satu) perusahaan/ instansi<br>
+                        <i class="fas fa-check"></i> Logo/ Nama Perusahaan/ instansi akan tercantum dalam seluruh media promosi kegiatan yang dicetak/dibuat panitia (brosur, pamphlet, backdrop, x benner) dalam ukuran Extra Large size.<br>
+                        <i class="fas fa-check"></i> Penampilan logo/ nama perusahaan/ instansi pada slide show selama acara berlangsung<br>
+                        <i class="fas fa-check"></i> Penyebutan nama perusahaan/ instansi saat acara berlangsung oleh pembawa acara<br>
+                        <i class="fas fa-check"></i> Memasang nama atau logo di sekitar tempat kegiatan<br>
+                        <i class="fas fa-check"></i> Diputarkan jingle perusahaan/ instansi pada saat acara berlangsung<br>
+                        <i class="fas fa-check"></i> Sponsor dapat membuka stand penjualan produk di sekitar tempat kegiatan sesuai dengan koordinasi panitia<br>
+                        <i class="fas fa-check"></i> Memasang umbul-umbul perusahaan/ instansi pada saat acara di sekitar tempat acara<br>
+                        <i class="fas fa-check"></i> Piagam penghargaan atas bantuan dan partisipasi sponsor.<br>
+                        <i class="fas fa-check"></i> Dapat mempromosikan kegiatan/produk dari perusahaan/ instansi penyedia sponsor melalui akun Facebook, Twitter, Instagram official<br>
+                        <i class="fas fa-check"></i> Pencantuman biografi dan Logo/ nama perusahaan/ instansi penyedia sponsor pada web official SlashRoot dalam ukuran Large size (Menggunakan Landing Page)<br>
+                        <i class="fas fa-check"></i> Mendapat 2 akses saat Malam Penghargaan<br>
+                        <i class="fas fa-check"></i> Pencantuman logo/ nama perusahaan/ instansi (large size) pada web saat Kualifikasi Online. (Menggunakan Landing Page)<br>
+                        <i class="fas fa-check"></i> Special Thanks dalam posting di semua akun , Facebook, Twitter, Instagram official<br>
+                    </p>
+                    <p>Contact person: -</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end modal -->
+
+    <!-- start modal -->
+    <div class="modal modal-donation" id="modalgold" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">GOLD PACKAGE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <i class="fas fa-check"></i> Hanya diberikan kepada 7 perusahaan/ instansi/sponsor<br>
+                        <i class="fas fa-check"></i> Logo / Nama Perusahaan/ instansi akan tercantum dalam seluruh media promosi kegiatan yang dicetak/dibuat panitia (brosur, pamphlet, backdrop, x benner) dalam ukuran Large size.<br>
+                        <i class="fas fa-check"></i> Sponsor dapat membuka stand penjualan produk di sekitar tempat kegiatan sesuai dengan koordinasi panitia<br>
+                        <i class="fas fa-check"></i> Penampilan logo / nama perusahaan/ instansi pada slide show selama acara berlangsung<br>
+                        <i class="fas fa-check"></i> Penyebutan nama perusahaan/ instansi saat acara berlangsung oleh pembawa acara<br>
+                        <i class="fas fa-check"></i> Memasang nama atau logo di sekitar tempat kegiatan<br>
+                        <i class="fas fa-check"></i> Piagam penghargaan atas bantuan dan partisipasi sponsor.<br>
+                        <i class="fas fa-check"></i> Dapat mempromosikan kegiatan/produk dari perusahaan/ instansi penyedia sponsor melalui akun Facebook, Twitter, Instagram official<br>
+                        <i class="fas fa-check"></i> Pencantuman Logo/ nama perusahaan/ instansi penyedia sponsor pada web official SlashRoot dalam ukuran Medium size (Landing Page)<br>
+                        <i class="fas fa-check"></i> Mendapat 1 akses masuk saat Malam Penghargaan<br>
+                        <i class="fas fa-check"></i> Pencantuman logo/ nama perusahaan/ instansi (Medium size) pada web saat Kualifikasi Online (Landing page) .<br>
+                        <i class="fas fa-check"></i> Special Thanks dalam posting di semua akun , Facebook, Twitter, Instagram official<br>
+                    </p>
+                    <p>Contact person: -</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end modal -->
+
+    <!-- start modal -->
+    <div class="modal modal-donation" id="modalsilver" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SILVER PACKAGE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <i class="fas fa-check"></i> Logo/ Nama Perusahaan/ instansi akan tercantum dalam seluruh media promosi kegiatan yang dicetak/dibuat panitia (brosur, pamphlet, backdrop, x benner) dalam ukuran Medium size.<br>
+                        <i class="fas fa-check"></i> Penampilan logo/ nama perusahaan/ instansi pada slide show selama acara berlangsung<br>
+                        <i class="fas fa-check"></i> Sponsor dapat membuka stand penjualan produk di sekitar tempat kegiatan sesuai dengan koordinasi panitia<br>
+                        <i class="fas fa-check"></i> Penyebutan nama perusahaan/ instansi saat acara berlangsung oleh pembawa acara<br>
+                        <i class="fas fa-check"></i> Memasang nama atau logo di sekitar tempat kegiatan<br>
+                        <i class="fas fa-check"></i> Piagam penghargaan atas bantuan dan partisipasi sponsor.<br>
+                        <i class="fas fa-check"></i> Dapat mempromosikan kegiatan/produk dari perusahaan/ instansi penyedia sponsor melalui akun Facebook, Twitter, Instagram official<br>
+                        <i class="fas fa-check"></i> Pencantuman Logo/ nama perusahaan/ instansi penyedia sponsor pada web official SlashRoot dalam ukuran Medium size (Landing Page)<br>
+                        <i class="fas fa-check"></i> Pencantuman logo/ nama perusahaan/ instansi (Small size) pada web saat Kualifikasi Online. (Landing Page)<br>
+                        <i class="fas fa-check"></i> Special Thanks dalam posting di semua akun , Facebook, Twitter, Instagram official<br>
+                    </p>
+                    <p>Contact person: -</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end modal -->
+
+    <!-- start modal -->
+    <div class="modal modal-donation" id="modalbronze" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">BRONZE PACKAGE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <i class="fas fa-check"></i> Logo/ Nama Perusahaan/ instansi akan tercantum dalam seluruh media promosi kegiatan yang dicetak/dibuat panitia (brosur, pamphlet, backdrop, x benner) dalam ukuran Medium size.<br>
+                        <i class="fas fa-check"></i> Memasang nama atau logo di sekitar tempat kegiatan<br>
+                        <i class="fas fa-check"></i> Dapat mempromosikan kegiatan/produk dari perusahaan/ instansi penyedia sponsor melalui akun Facebook, Twitter, Instagram official<br>
+                        <i class="fas fa-check"></i> Penyebutan nama perusahaan/ instansi saat acara berlangsung oleh pembawa acara<br>
+                        <i class="fas fa-check"></i> Piagam penghargaan atas bantuan dan partisipasi sponsor.<br>
+                        <i class="fas fa-check"></i> Pencantuman Logo/ nama perusahaan/ instansi penyedia sponsor pada web official SlashRoot dalam ukuran Small size (Landing Page)<br>
+                        <i class="fas fa-check"></i> Special Thanks dalam posting di semua akun , Facebook, Twitter, Instagram official<br>
+                    </p>
+                    <p>Contact person: -</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end modal -->
 
     <!-- JavaScript -->
     <script src="assets/js/jquery-3.3.1.js"></script>
