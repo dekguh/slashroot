@@ -89,6 +89,19 @@ a {
     text-align: center;
     width: 100%;
     margin-bottom: 1rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.heading-section:after {
+    background-color: #102A3B;
+    width: 5rem;
+    position: absolute;
+    height: 0.3rem;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
 }
 
 .heading-section h2 {
@@ -98,13 +111,14 @@ a {
 
 /* intro */
 .intro-inner {
-    background-image: url('../images/home-bg.jpg');
+    background-image: url('../images/Cover-foto.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     position: relative;
+    background-attachment: fixed;
 }
 
 .intro-content {
@@ -128,9 +142,22 @@ a {
     padding: 0;
 }
 
+.title-image {
+    width: 30rem;
+}
+
+.intro-logo {
+    width: 5rem;
+    margin: 0 0.2rem;
+}
+
 @media (max-width:767.98px) {
     .intro-content .title-2 {
         width: 100%;
+    }
+
+    .title-image {
+        width: 20rem;
     }
 }
 /* navbar */
@@ -164,8 +191,10 @@ a {
 
 @media (max-width: 767.98px) {
     .navbar-custom .navbar-collapse {
+        margin-top: 0.2rem;
         background-color: rgba(0, 0, 0, 0.8);
         padding: 0 0.5rem;
+        z-index: 9999;
     }
 }
 
@@ -182,21 +211,29 @@ a {
 .about-content {
     padding-top: 5rem;
 }
+.about-image {
+    text-align: center;
+}
 
 .about-image .img {
-    width: 100%;
-
+    width: 70%;
 }
 
 @media (max-width: 991.98px) {
     .about-content {
         padding-top: 0;
     }
+
+    .about-image .img {
+        width: 100%;
+    }
+    
 }
 
 /* countdown */
 .countdown-inner {
     background-image: url('../images/message-bg.jpeg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
