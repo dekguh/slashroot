@@ -24,7 +24,7 @@ $('#sponsorCarousel').owlCarousel({
   autoplayTimeout: 3000,
   nav: true,
   responsiveClass: true,
-  margin: 5,
+  margin: 20,
   responsive: {
     576: {
       items: 1
@@ -33,12 +33,12 @@ $('#sponsorCarousel').owlCarousel({
       items: 3
     },
     992: {
-      items: 5
+      items: 4
     }
   }
 });
 
-/* sponsor carousel */
+/* media carousel */
 $('#mediaCarousel').owlCarousel({
   items: 1,
   loop: true,
